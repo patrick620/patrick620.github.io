@@ -1,0 +1,206 @@
+
+body {
+    margin: 0;
+    height: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+/* Introduction */
+
+#intro {
+    padding: 50px 0 50px 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("../images/silicon-wafer.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* background-blend-mode: darken; */
+    /* background-color: var(--bs-green); */
+}
+
+
+#intro h1{
+    font-weight: bold;
+    color: var(--bs-white);
+}
+
+
+#intro p {
+    color: var(--bs-light);
+}
+
+
+#intro a.start-btn {
+    font-weight: bold;
+    align-items: center;
+    color: var(--bs-white);
+    border: 1px solid #ffffff 30%;
+    border-radius: 8px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+
+
+#intro a.start-btn:hover {
+    background-image: linear-gradient(144deg,#AF40FFDC, #5B42F3DC 50%,#00DDEBDC);
+    transition: 0.2s;
+}
+
+
+#intro a.start-btn:active {
+    align-items: center;
+    color: var(--bs-white);
+    transform: scale(0.98);
+    transition: 0.2s;
+    border-radius: 8px;
+    background-image: linear-gradient(144deg,#ff2bb6DC, #9858ffDC 50%,#0da6ffDC);
+}
+
+
+/* @media (min-width: 768px) {
+    #intro .btn {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  } */
+
+/* 
+@media (min-width: 576px) {
+    #intro .btn {
+      font-size: 24px;
+      min-width: 100px;
+      max-width: 100px;
+    }
+  } */
+
+
+
+
+/* Upload */
+
+#upload {
+    background-color: #f3f0ec;
+}
+
+
+#upload h1 {
+    font-weight: bold;
+}
+
+
+#upload .upload-logo {
+    height: 100px;
+    width: auto;
+    filter: invert(100%);
+    /* invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)  brightness(104%) contrast(97%) */
+    /* invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)  brightness(104%) contrast(97%); */
+
+}
+
+
+#upload label.upload-label {
+    background-color: rgba(11, 62, 121, 1);
+    margin: 0 2rem 0 2rem;
+    padding: 3rem 0 3rem 0;
+    border-radius: 20px;
+}
+
+
+#upload label input.file-input {
+    display: none;
+}
+
+
+#upload .upload .measure-upload .header-upload, label p {
+    color: #f3f0ec;
+    font-weight: inherit;
+}
+
+
+#upload .upload-label:hover {
+    /* background-color: #5B42F3; */
+    background-color: rgba(11, 62, 121, 0.8);
+    outline: 5px dashed #008ac0;
+    outline-offset: -5px;
+    transition: 0.4s;
+}
+
+
+#upload label.file-name {
+    font-size: normal;
+    line-height: 1.3;
+    height: 5.0rem;
+    padding: 1rem 3rem 0 3rem;
+    text-align: justify;
+    word-break: break-all;
+    overflow-y: hidden;
+}
+
+
+#upload label .upload-input {
+    display: none;
+}
+
+
+#upload label.submit-label p {
+    color: rgb(92, 92, 92);
+    text-align: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+#upload label.submit-label {
+    /* background-color: rgb(241, 100, 18); */
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  50%, #F09819  100%);
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    margin: 0 2rem 0 2rem;
+    padding: 1rem 4rem 0.3rem 4rem;
+    border-radius: 70px;
+    align-items: center;
+}
+
+
+#upload label.submit-label:hover {
+    /* background-color: rgb(241, 100, 18); */
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1)), linear-gradient(to right, #F09819DC 0%, #EDDE5DDC  50%, #F09819DC  100%);
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    margin: 0 2rem 0 2rem;
+    padding: 1rem 4rem 0.5rem 4rem;
+    border-radius: 70px;
+    align-items: center;
+}
+
+
+
+
+/* #upload .upload-area {
+    box-sizing: border-box;
+    color: #f3f0ec;
+    background-color: rgba(0,37,80, 1);
+    margin: 0 2rem 0 2rem;
+    padding: 3rem 0 3rem 0;
+    border-radius: 20px;
+} */
+
+/* #upload .upload-area:hover {
+    background-color: rgba(0,37,80, 0.8);
+    outline: 5px dashed #008ac0;
+    outline-offset: -5px;
+} */
+
+/* 
+#upload .upload .file-name {
+    padding: 1rem 3rem 0 3rem;
+    text-align: justify;
+    word-break: break-all;
+} */
