@@ -148,8 +148,11 @@ footer a:not(.nav-link) {
   .about-section {
     padding: 6.5rem 5rem 2rem !important; }
   .skills-section,
-  .work-experience-section,
+  .experience-section,
   .education-section,
+  .career-section,
+  .award-section,
+  .photo-section,
   .contant-section {
     padding: 1.5rem 5rem 2rem !important; }
   .page-break {
@@ -241,19 +244,21 @@ h2.h1 {
 p.title {
   color: #a7a6a6;
 }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+ul {
+  margin: 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
