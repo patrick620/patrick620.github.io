@@ -218,10 +218,11 @@ span.post-name a,span.post-read-more a:hover {
 }
 .article-post {
 	font-family:Merriweather;
-	font-size:1.2rem;
+	font-size:1.25rem;
 	line-height:1.8;
 	color:rgba(0,0,0,.8);
 }
+
 blockquote {
 	border-left:4px solid #00ab6b;
 	padding:0 20px;
@@ -440,4 +441,296 @@ ul.tags li a:hover {
 	line-height:22px;
 	border-radius:50%;
 	font-size:12px;
+}
+
+.cover-center-crop figcaption {
+	color: #525252;
+	font-size: larger;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2px;
+	text-align: center;
+  }
+
+.content-image figcaption {
+	color: #525252;
+	font-size: medium;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 2px;
+	text-align: center;
+}
+
+
+h2 {
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.article-post p {
+	font-size: 1.2em;
+}
+
+
+.carousel-caption {
+	text-align: center;
+	position: relative;
+	left: auto;
+	right: auto;
+	margin-top: 1.2rem;
+	height: 5rem;
+	overflow: hidden;
+	background-color: #323232;
+	font-family: Arial, Helvetica, sans-serif;
+
+	h5 {
+		font-size: 1rem;
+		font-weight: bold;
+		padding: 0;
+		margin: 0 0 0 0;
+	}
+
+	p {
+		font-size: 0.6rem;
+	}
+}
+
+
+.cover-center-crop img {
+	object-fit: cover;
+	object-position: center; /* Center the image within the element */
+	width: 100%;
+	max-height: 600px;
+	margin-bottom: 1rem;
+}
+
+
+.center-crop {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.center-crop img {
+	min-width: 100%;
+	min-height: 100%;
+	object-fit: cover;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 10vw;
+  height: 10vw;
+}
+
+.carousel-item img {
+	width: 100%!important;
+	height: 400px;
+	object-fit: cover;
+}
+
+.carousel-indicators {
+	position: unset;
+	margin-top: 0;
+}
+
+.carousel-indicators img {
+	width: 45px!important;
+	height: 45px!important;
+	display: block;
+	border: 2px solid #b3b3b3;
+	border-radius: 45px;
+	object-fit: cover;
+}
+
+.carousel-indicators button {
+	width: max-content!important;
+}
+
+.carousel {
+	margin-bottom: 3.5rem;
+}
+
+
+
+
+@media (max-width: 400px) {
+	.article-post {
+		font-size: 1rem;
+	}
+
+	.carousel-item img {
+		width: 100%!important;
+		height: 375px;
+		object-fit: cover;
+	}
+
+	/* .carousel-caption {
+		height: 6rem!important;
+	} */
+
+	.carousel-caption p, h5 {
+		font-size: 0.6rem;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 576px) {
+	.article-post {
+		font-size: 1rem;
+	}
+
+	.carousel-item img {
+		width: 100%!important;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	/* .carousel-caption {
+		height: 8rem!important;
+	} */
+
+	.carousel-caption p, h5 {
+		font-size: 0.7rem;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.article-post {
+		font-size: 1rem;
+	}
+
+	.carousel-item img {
+		width: 100%!important;
+		height: 375px;
+		object-fit: cover;
+	}
+
+	.carousel-caption {
+		h5 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 0.9rem;
+		}
+	}
+}
+
+@media (min-width: 676px) and (max-width: 768px) {
+	.article-post {
+		font-size: 1.05rem;
+	}
+
+	.carousel-item img {
+		width: 100%!important;
+		height: 387px;
+		object-fit: cover;
+	}
+
+	.carousel-caption {
+		h5 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 0.8rem;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.article-post {
+		font-size: 1.1rem;
+	}
+	
+	.carousel-item img {
+		width: 100%!important;
+		height: 432px;
+		object-fit: cover;
+	}
+
+	.carousel-caption {
+		h5 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 0.9rem;
+		}
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.article-post {
+		font-size: 1.1rem;
+	}
+
+	.carousel-item img {
+		width: 100%!important;
+		height: 462px;
+		object-fit: cover;
+	}
+
+	.carousel-caption {
+		h5 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 0.9rem;
+		}
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+	.article-post {
+		font-size: 1.1rem;
+	}
+
+	.carousel-item img {
+		width: 100%!important;
+		height: 550px;
+		object-fit: cover;
+	}
+
+	.carousel-caption {
+		h5 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 0.9rem;
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.article-post {
+		font-size: 1.15rem;
+	}
+
+	.carousel-item img {
+		width: 100%!important;
+		height: 642px;
+		object-fit: cover;
+	}
+
+	.carousel-caption {
+		h5 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 0.9rem;
+		}
+	}
+}
+
+.video {
+	position: relative;
+}
+
+.video-caption {
+	color: #525252;
+	font-size: medium;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 0 2rem 0;
+	text-align: center;
 }
