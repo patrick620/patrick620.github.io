@@ -243,6 +243,8 @@ h2.h1 {
 
 p.title {
   color: #a7a6a6;
+  text-shadow: rgb(67, 67, 67) 0.1em 0.1em 0.2em;
+
 }
 
 ul {
